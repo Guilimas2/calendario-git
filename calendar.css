@@ -1,0 +1,49 @@
+table,td,tr{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.domingo{
+    color: red;
+}
+.sabado{
+    color: red;
+}
+.azul {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: LightBlue
+}
+ 
+.verde {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: PaleGreen
+}
+.rosa{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color:LightPink
+}
+.roxo{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color:SlateBlue
+}
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    unicode-bidi: isolate;
+    border-spacing: 0px;
+    border-color: gray;
+    width: 60%;
+}
+td{
+    padding: 25px;
+    border-style: solid;
+}
