@@ -1,7 +1,8 @@
-function coloriurDia(){
-    let day  = document.getElementById("day").value;
-    let color  = document.getElementById("color").value;
-    let calendar =document.getElementById("calendar");
-    let td = calendar.getElementsByTagName("td")[(parseInt(day)+1)];
+function colorirDia(){
+    let days = document.getElementById("day").value;
+    let color = document.getElementById("color").value;
+    let calendar = document.getElementById("calendar");
+    let td = calendar.getElementsByTagName("td")[(parseInt(days)+0)];
+    
     td.style.backgroundColor = color;
 }
